@@ -2,7 +2,7 @@
     "name": "bmericc/jet-sms-php",
     "description": "A PHP client library for jet-sms api",
     "homepage": "https://github.com/laravel-notification-channels/jet-sms",
-    "version": "1.2.0",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "authors": [
