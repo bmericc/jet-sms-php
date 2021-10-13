@@ -1,6 +1,6 @@
 <?php
 
-namespace Erdemkeren\JetSms;
+namespace BahriCanli\JetSms;
 
 /**
  * Class ShortMessageFactoryInterface.

@@ -1,5 +1,5 @@
 {
-    "name": "erdemkeren/jet-sms-php",
+    "name": "bmericc/jet-sms-php",
     "description": "A PHP client library for jet-sms api",
     "homepage": "https://github.com/laravel-notification-channels/jet-sms",
     "license": "MIT",
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Erdemkeren\\JetSms\\": "src"
+            "BahriCanli\\JetSms\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Erdemkeren\\JetSms\\Test\\": "tests"
+            "BahriCanli\\JetSms\\Test\\": "tests"
         }
     },
     "scripts": {

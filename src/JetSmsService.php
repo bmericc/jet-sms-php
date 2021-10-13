@@ -1,9 +1,9 @@
 <?php
 
-namespace Erdemkeren\JetSms;
+namespace BahriCanli\JetSms;
 
-use Erdemkeren\JetSms\Http\Clients\JetSmsClientInterface;
-use Erdemkeren\JetSms\Http\Responses\JetSmsResponseInterface;
+use BahriCanli\JetSms\Http\Clients\JetSmsClientInterface;
+use BahriCanli\JetSms\Http\Responses\JetSmsResponseInterface;
 
 /**
  * Class JetSmsService.

@@ -1,10 +1,10 @@
 <?php
 
-namespace Erdemkeren\JetSms\Http\Clients;
+namespace BahriCanli\JetSms\Http\Clients;
 
-use Erdemkeren\JetSms\ShortMessage;
-use Erdemkeren\JetSms\ShortMessageCollection;
-use Erdemkeren\JetSms\Http\Responses\JetSmsResponseInterface;
+use BahriCanli\JetSms\ShortMessage;
+use BahriCanli\JetSms\ShortMessageCollection;
+use BahriCanli\JetSms\Http\Responses\JetSmsResponseInterface;
 
 /**
  * Interface JetSmsClientInterface.

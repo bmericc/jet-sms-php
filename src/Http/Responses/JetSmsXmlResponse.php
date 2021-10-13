@@ -1,6 +1,6 @@
 <?php
 
-namespace Erdemkeren\JetSms\Http\Responses;
+namespace BahriCanli\JetSms\Http\Responses;
 
 use BadMethodCallException;
 
