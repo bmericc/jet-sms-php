@@ -1,15 +1,15 @@
 <?php
 
-namespace Erdemkeren\JetSms\Http\Clients;
+namespace BahriCanli\JetSms\Http\Clients;
 
 use Mockery as M;
 use GuzzleHttp\Client;
 use Mockery\MockInterface;
 use PHPUnit_Framework_TestCase;
-use Erdemkeren\JetSms\ShortMessage;
+use BahriCanli\JetSms\ShortMessage;
 use Psr\Http\Message\ResponseInterface;
-use Erdemkeren\JetSms\ShortMessageCollection;
-use Erdemkeren\JetSms\Http\Responses\JetSmsResponseInterface;
+use BahriCanli\JetSms\ShortMessageCollection;
+use BahriCanli\JetSms\Http\Responses\JetSmsResponseInterface;
 
 function curl_init($url = null)
 {

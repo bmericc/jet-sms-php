@@ -1,17 +1,17 @@
 <?php
 
-namespace Erdemkeren\JetSms\Test;
+namespace BahriCanli\JetSms\Test;
 
 use Mockery as M;
 use Mockery\MockInterface;
 use PHPUnit_Framework_TestCase;
-use Erdemkeren\JetSms\ShortMessage;
-use Erdemkeren\JetSms\JetSmsService;
-use Erdemkeren\JetSms\ShortMessageFactory;
-use Erdemkeren\JetSms\ShortMessageCollection;
-use Erdemkeren\JetSms\ShortMessageCollectionFactory;
-use Erdemkeren\JetSms\Http\Clients\JetSmsClientInterface;
-use Erdemkeren\JetSms\Http\Responses\JetSmsResponseInterface;
+use BahriCanli\JetSms\ShortMessage;
+use BahriCanli\JetSms\JetSmsService;
+use BahriCanli\JetSms\ShortMessageFactory;
+use BahriCanli\JetSms\ShortMessageCollection;
+use BahriCanli\JetSms\ShortMessageCollectionFactory;
+use BahriCanli\JetSms\Http\Clients\JetSmsClientInterface;
+use BahriCanli\JetSms\Http\Responses\JetSmsResponseInterface;
 
 class JetSmsServiceTest extends PHPUnit_Framework_TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Erdemkeren\JetSms\Test;
+namespace BahriCanli\JetSms\Test;
 
-use Erdemkeren\JetSms\Http\Responses\JetSmsXmlResponse;
+use BahriCanli\JetSms\Http\Responses\JetSmsXmlResponse;
 
 class JetSmsXmlResponseTest extends \PHPUnit_Framework_TestCase
 {

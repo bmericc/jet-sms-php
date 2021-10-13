@@ -1,16 +1,16 @@
 <?php
 
-namespace Erdemkeren\JetSms\Test\Clients;
+namespace BahriCanli\JetSms\Test\Clients;
 
 use Mockery as M;
 use GuzzleHttp\Client;
 use Mockery\MockInterface;
 use PHPUnit_Framework_TestCase;
-use Erdemkeren\JetSms\ShortMessage;
+use BahriCanli\JetSms\ShortMessage;
 use Psr\Http\Message\ResponseInterface;
-use Erdemkeren\JetSms\ShortMessageCollection;
-use Erdemkeren\JetSms\Http\Clients\JetSmsHttpClient;
-use Erdemkeren\JetSms\Http\Responses\JetSmsResponseInterface;
+use BahriCanli\JetSms\ShortMessageCollection;
+use BahriCanli\JetSms\Http\Clients\JetSmsHttpClient;
+use BahriCanli\JetSms\Http\Responses\JetSmsResponseInterface;
 
 class JetSmsHttpClientTest extends PHPUnit_Framework_TestCase
 {

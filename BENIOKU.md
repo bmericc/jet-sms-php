@@ -40,11 +40,11 @@ JetSMS servisini kullanabilmek için kayıt olunmalı ve kontör satın alınmal
 ```php
 require __DIR__ . '/../vendor/autoload.php';
 
-use Erdemkeren\JetSms\JetSmsService;
-use Erdemkeren\JetSms\ShortMessageFactory;
-use Erdemkeren\JetSms\Http\Clients\JetSmsXmlClient;
-use Erdemkeren\JetSms\Http\Clients\JetSmsHttpClient;
-use Erdemkeren\JetSms\ShortMessageCollectionFactory;
+use BahriCanli\JetSms\JetSmsService;
+use BahriCanli\JetSms\ShortMessageFactory;
+use BahriCanli\JetSms\Http\Clients\JetSmsXmlClient;
+use BahriCanli\JetSms\Http\Clients\JetSmsHttpClient;
+use BahriCanli\JetSms\ShortMessageCollectionFactory;
 
 $service = new JetSmsService(new JetSmsXmlClient(
     'www.biotekno.biz:8080/SMS-Web/xmlsms',

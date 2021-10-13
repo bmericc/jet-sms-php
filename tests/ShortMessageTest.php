@@ -1,10 +1,10 @@
 <?php
 
-namespace Erdemkeren\JetSms\Test;
+namespace BahriCanli\JetSms\Test;
 
 use Mockery as M;
 use PHPUnit_Framework_TestCase;
-use Erdemkeren\JetSms\ShortMessage;
+use BahriCanli\JetSms\ShortMessage;
 
 class ShortMessageTest extends PHPUnit_Framework_TestCase
 {
