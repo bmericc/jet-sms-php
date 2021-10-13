@@ -68,7 +68,7 @@ class ShortMessage
         $text = str_replace("'", "&apos;", htmlentities($this->body()));
         $gsmNo = $this->receiversString(',');
 
-        return "<text>{$text}</text><message><gsmnos>{$gsmNo}</gsmnos></message><domesticfilter>0</domesticfilter>";
+        return "<text>{$text}</text><message><gsmnos>{$gsmNo}</gsmnos></message>";
     }
 
     /**
@@ -81,6 +81,6 @@ class ShortMessage
         $text = str_replace("'", "&apos;", htmlentities($this->body()));
         $gsmNo = $this->receiversString(',');
 
-        return "<message><gsmno>{$gsmNo}</gsmno><text>{$text}</text></message><domesticfilter>0</domesticfilter>";
+        return "<message><gsmno>{$gsmNo}</gsmno><text>{$text}</text></message>";
     }
 }

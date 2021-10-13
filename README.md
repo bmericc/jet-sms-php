@@ -1,5 +1,13 @@
 # PHP JetSMS Client
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/erdemkeren/jet-sms-php.svg?style=flat-square)](https://packagist.org/packages/erdemkeren/jet-sms-php)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://img.shields.io/travis/erdemkeren/jet-sms-php/master.svg?style=flat-square)](https://travis-ci.org/erdemkeren/jet-sms-php)
+[![StyleCI](https://styleci.io/repos/121802100/shield?branch=master)](https://styleci.io/repos/121802100)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/erdemkeren/jet-sms-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/erdemkeren/jet-sms-php/?branch=master)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/erdemkeren/jet-sms-php/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/erdemkeren/jet-sms-php/?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/erdemkeren/jet-sms-php.svg?style=flat-square)](https://packagist.org/packages/erdemkeren/jet-sms-php)
+
 This package provides an easy to use JetSMS service which can be used with both XML and Http apis.
 
 Bu paket, hem XML hem Http API ile çalışan kullanımı kolay bir JetSMS servisi sağlar.
@@ -72,7 +80,7 @@ After successfully booting your JetSmsService instance up; use one of the follow
 #### One Message - Single or Multiple Recipients:
 
 ```php
-$response = $service->sendShortMessage('This is a test message.', ['5530000000', '5420000000']);
+$response = $service->sendShortMessage(['5530000000', '5420000000'], 'This is a test message.');
 
 if($response->isSuccessful()) {
     // storeGroupIdForLaterReference is not included in the package.
@@ -90,11 +98,11 @@ Please not that if you have using that method, every message should only have on
 
 ```php
 $response2 = $service->sendShortMessages([[
-    'body' => 'This is a test.',
-    'mobile_number' => '5530000000',
+    'recipient' => '5530000000',
+    'message' => 'This is a test.',
 ], [
-    'body' => 'This is another test.',
-    'mobile_number' => '5420000000',
+    'recipient' => '5420000000',
+    'message' => 'This is another test.',
 ]]);
 
 if($response2->isSuccessful()) {
