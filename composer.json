@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Erdemkeren\\JetSms\\": "src"
+            "BahriCanli\\JetSms\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Erdemkeren\\JetSms\\Test\\": "tests"
+            "BahriCanli\\JetSms\\Test\\": "tests"
         }
     },
     "scripts": {
